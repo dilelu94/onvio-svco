@@ -1,11 +1,11 @@
 {
   "name": "onvio-svco",
   "version": "1.0.0",
-  "description": "Automatización de actualización de montos en matriz de Onvio.",
+  "description": "Automatización de actualización de montos en matriz de Onvio SCVO.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/onvio-svco.mjs",
+    "start": "tsx src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,8 @@
   "dependencies": {
     "@playwright/test": "^1.58.2",
     "dotenv": "^17.3.1",
-    "playwright": "^1.58.2"
+    "playwright": "^1.58.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
   }
 }
