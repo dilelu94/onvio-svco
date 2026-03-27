@@ -23,7 +23,7 @@ async function run() {
     .map(c => c.trim())
     .filter(line => line !== '');
 
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
   const page = await context.newPage();
 
