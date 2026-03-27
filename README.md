@@ -16,5 +16,13 @@ Requiere Node.js y Playwright.
 
 ```bash
 npm install
-node src/onvio-svco.js
+npm start
 ```
+
+## GitHub Actions
+Este proyecto incluye un workflow de GitHub Actions para automatizar el proceso.
+Para que funcione, debes configurar los siguientes **Secrets** en tu repositorio de GitHub:
+
+1. `ONVIO_USER`: Correo electrónico de acceso.
+2. `ONVIO_PASS`: Contraseña de acceso.
+3. `MONTO_ACTUALIZAR`: (Opcional) Monto por defecto si no se especifica en el trigger.

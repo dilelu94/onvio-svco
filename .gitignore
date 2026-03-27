@@ -1,0 +1,5 @@
+node_modules/
+.env
+.planning/
+companies.txt
+companies.txt.full
